@@ -1,14 +1,24 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      MarkPoint
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div id="map"></div>
+  <ion-fab right bottom #fab>
+    <button color="primary" ion-fab (click)="addCurrentPositionMarker(fab)">
+      <ion-icon name="locate"></ion-icon>
+    </button>
+    <!-- <ion-fab-list side="top">
+      <button color="danger" ion-fab (click)="doCaptureVideo(fab)">
+        <ion-icon large name="videocam"></ion-icon>
+      </button>
+      <button color="danger" ion-fab (click)="doCaptureImage(fab)" large>
+        <ion-icon name="camera"></ion-icon>
+      </button>
+    </ion-fab-list> -->
+  </ion-fab>
 </ion-content>
