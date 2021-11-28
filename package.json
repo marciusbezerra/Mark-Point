@@ -40,8 +40,8 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-googlemaps": {
-        "API_KEY_FOR_ANDROID": "AIzaSyA34_Xf-gJiyuKO0X9pefZ88jLrj1r4Af4",
-        "API_KEY_FOR_IOS": "AIzaSyBwNNw5ThMk7IIXy2iYN4oFYp0-Pb_l8t8"
+        "API_KEY_FOR_ANDROID": "https://console.cloud.google.com/apis/library?project=markpoint-1510430169884 ... final ... j1r4Af4",
+        "API_KEY_FOR_IOS": "https://console.cloud.google.com/apis/library?project=markpoint-1510430169884 ... final... Pb_l8t8"
       },
       "cordova-plugin-geolocation": {
         "GEOLOCATION_USAGE_DESCRIPTION": "I would like to give you the possibility to mark points of interest"

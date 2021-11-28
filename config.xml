@@ -84,8 +84,8 @@
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="I would like to give you the possibility to mark points of interest" />
     </plugin>
     <plugin name="cordova-plugin-googlemaps" spec="^2.1.1">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyA34_Xf-gJiyuKO0X9pefZ88jLrj1r4Af4" />
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyBwNNw5ThMk7IIXy2iYN4oFYp0-Pb_l8t8" />
+        <variable name="API_KEY_FOR_ANDROID" value="https://console.cloud.google.com/apis/library?project=markpoint-1510430169884 ... final ... j1r4Af4" />
+        <variable name="API_KEY_FOR_IOS" value="https://console.cloud.google.com/apis/library?project=markpoint-1510430169884 ... final... Pb_l8t8" />
     </plugin>
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.11" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
